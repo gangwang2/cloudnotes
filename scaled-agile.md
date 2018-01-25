@@ -1,5 +1,5 @@
 ---
-title: Scaled Agile
+date: 2018-01-25
 ---
 
 # Scaled Agile
