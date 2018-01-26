@@ -44,8 +44,7 @@ IaaS比传统的计算资源申请方式而言, 有了极高的灵活性.从申�
 
 让应用系统, 或者应用系统所在的应用平台, 通过 Infrastructure PaaS来申请和管理Infrastructure资源, 则比手工申请与管理具有更高的自动化. 对于大规模使用Infrastructure资源的客户而言, 这种自动化减少了管理成本, 且更好地服务于应用系统, 优势明显.
 
-那么, 如何让应用系统能够自动管理Infrastructure的使用呢? Developer PaaS给出了答案.
-
+那么, 如何让应用系统能够自动管理Infrastructure的使用呢? Developer PaaS. 它是承上启下的一环, 它负责通过 Infrastruture PaaS API调用来使用资源.
 
 ```
 Developer PaaS = Developer Platform + Application Platform
@@ -55,11 +54,21 @@ Developer PaaS = Developer Platform + Application Platform
 我们更准确的说, 都是将平台作为一种服务, Infrastructure platform-as-a-service,
 Developer platform-as-a-service, and Cloud Application.
 
-这里把SaaS解构了. 原先意义上的SaaS是具有多租户形态的应用. 而对于云计算应用平台提供商而言, 更多的是广义上的Cloud Application. 
-基于 Developer platform-as-a-service, 构建 Cloud Application.  这些云应用程序, 更多的是面向企业自身需求的, 少数是SaaS -- 服务很多企业的.
 
 通过把Platform的概念还原, 而把经典的PaaS定义为Developer PaaS, 把经典的IaaS定义为Infrastructure PaaS. 它准确表示了云计算行业的趋势. 
 同时, 它也反应了Agile, DevOps等思想方法在云计算领域的运用.
 
 相对于经典的IaaS而言, Infrastructure PaaS内涵了Infrastructure as Code的DevOps文化, 反应了Infrastructure代码化, 软件化的状态.
 相比于经典的PaaS而言, Developer PaaS明确了软件技术平台所面向的用户对象Developer. 现在的PaaS就是Developer PaaS, 它的用户就是Developers.
+
+## Core Concepts
+These are the core concepts.
+### Services
+API First Service.
+As a Service Pattern.
+Common Services -- some services are common to all platforms, like security, logging, APM.
+### Agile
+Agile is the way to build incrementals, and to cope with rapid changes. Cloud and Services make agile feasible in the technical aspect.
+### DevOps
+The culture to implement Agile end (requirement) to end (Deployed app).
+
