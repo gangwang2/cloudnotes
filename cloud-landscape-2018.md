@@ -20,17 +20,19 @@ PaaS提供了应用软件运行所依赖的平台级软件服务环境, 如大�
 Developer PaaS则通过提供集成的平台环境, 进一步解放了应用开发者. Developer PaaS是践行Agile DevOps文化的企业应用开发者的得力助手, 它以托管代码库为起点, 通过持续集成, 持续测试和持续交付, 让代码以最高的效率和可靠的质量进入到线上环境. Developer PaaS打通了从代码到应用的全部环节.
 
 ## How to use Developer PaaS?
+Developer PaaS 定义了一个Cloud Application的代码到应用的环境. Cloud Application是能充分利用 Developer PaaS优势的Application. 为了 充分利用Developer PaaS, Cloud Application需要遵守一些约定. The 12factor app是典型的Cloud Applications所应该遵守的一些实践方法.
 
-
-## Cloud Native Application
-
-## Transforming
+### Cloud Native Application
+新的应用, 新的服务, 遵循Cloud Native的实践原则.
+### Application Modernization
+已有的应用, 分模块, 分步骤来完成应用的更新.
 
 ```
 Service = Platform + Application
 ```
 
 Platform加Application是构建服务的经典结构. Platform是基石级别的code, Application是利用Platform构建特定领域系统的形态. 
+## Infrastructure PaaS
 
 ```
 IaaS = Infrastructure PaaS + Infrastructure Application
