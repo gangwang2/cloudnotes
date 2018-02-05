@@ -8,5 +8,4 @@
 * [Service Mesh with Linkerd](service-mesh-linkerd.md)
 * [Scaled Agile](scaled-agile.md)
 * [References](references.md)
-  * [b](references/b.md)
 
