@@ -2,9 +2,13 @@
 permalink: micro1.html
 ---
 
-# Micro Services
+# Microservices
 
 Micro service is an architecture pattern for large scale and complex application in the cloud era.
+
+http://microservices.io/patterns/microservices.html
+
+
 
 ## Microservice 基础架构内容
 
@@ -16,8 +20,6 @@ Micro service is an architecture pattern for large scale and complex application
 6. 服务监控. 日志监控; 调用链监控; Metrics监控; 告警通知; 健康检查.
 7. 服务部署平台. 发布机制\(蓝绿; 金丝雀; 灰度\); 容器调度平台; 发布系统; 镜像治理; 租户资源治理; 发布流水线.
 
-
-
 ## 微服务架构体系
 
 将上述架构基本内容组织成体系, 表现为.
@@ -27,8 +29,6 @@ Micro service is an architecture pattern for large scale and complex application
 3. 支撑服务. 服务的注册与发现, 集中配置; 容错; 授权认证; 日志聚合; 监控警告; 后台服务.
 4. 平台服务. 发布系统; 集群资源调度; 镜像治理; IAM.
 5. 基础设施层. compute, network, storage, NOC监控, 安全, IDC.
-
-
 
 ## 服务发布系统
 
@@ -53,7 +53,7 @@ Micro service is an architecture pattern for large scale and complex application
 | 特性 | CAT | zipkin | pinpoint |
 | :--- | :--- | :--- | :--- |
 | 一句话描述 | centralized application tracking | distributed tracing system. |  |
-|  |  | https://zipkin.io/ |  |
+|  |  | [https://zipkin.io/](https://zipkin.io/) |  |
 | 调用链可视化 | 有 | 有 | 有 |
 | 报表 | 非常丰富 | 少 | 中等 |
 | ServerMap | 简单依赖图 | 简单 | 好 |
