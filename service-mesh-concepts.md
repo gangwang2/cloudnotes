@@ -10,12 +10,15 @@ A service mesh like Linkerd manages this complexity with a wide array of powerfu
 
 ## Service Mesh Concepts
 
-| Feature | Description | istio | Linkerd | Conduit |
+While both Istio and Linkerd are service mesh. They can work together. Istio can be the control pane of Linkerd.
+
+
+
+| Feature | Description | Istio | Linkerd | Conduit |
 | :--- | :--- | :--- | :--- | :--- |
-|  |  |  | Feature Rich, many production use cases. | https://buoyant.io/products/\#products-Conduit |
-|  |  |  |  | Next-generation ultralight service mesh for Kubernates |
-|  |  | Intelligent Routing and Load balancing | latency-aware load balancing. Runtime traffic routing |  |
-|  |  |  |  |  |
+| Overall | One sentence introduction. | A platform to connect, manage and secure microservices. | Feature Rich, many production use cases. | Next-generation ultralight service mesh for Kubernates |
+| Site | The official website | [https://istio.io/about/intro.html](https://istio.io/) | https://linkerd.io/ | [https://buoyant.io/products/\#products-Conduit](https://www.gitbook.com/book/gangwang2/cloud-notes/edit#) |
+| Traffic Management |  | Intelligent Routing and Load balancing | latency-aware load balancing. Runtime traffic routing |  |
 |  |  | Resilience across languages and platforms | Any language, any environment |  |
 |  |  | Fleet-wide policy enforcement |  |  |
 |  |  | In-depth telemetry and reporting |  |  |
