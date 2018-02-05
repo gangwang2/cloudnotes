@@ -6,18 +6,18 @@ permalink: micro1.html
 
 Micro service is an architecture pattern for large scale and complex application in the cloud era.
 
-http://microservices.io/patterns/microservices.html
+[http://microservices.io/patterns/microservices.html](http://microservices.io/patterns/microservices.html)
 
-
+微服务架构是单一应用N层架构要复杂. 这种复杂性是为了解决更复杂的应用场景需求, 形成敏捷, 强大的服务交付与运行能力.
 
 ## Microservice 基础架构内容
 
 1. 服务框架. RPC vs. REST; 二进制 vs 文本序列化; TCP vs HTTP; 契约 vs 代码优先; 客户端自动生成; 跨语言互操作.
-2. 运行时支撑服务. 服务网关; 服务注册发现; 负载均衡; 配置中心.
+2. 运行时支撑服务. 服务网关; 服务注册发现; 负载均衡; 配置中心. \(Service Mesh platform\)
 3. 服务安全. Oauth; jwt; IAM.
 4. 后台服务. 消息系统; 分布式数据访问层; 任务调度; 缓存管理.
-5. 服务容错. 超时; 熔断; 隔离; 限流; 降级.
-6. 服务监控. 日志监控; 调用链监控; Metrics监控; 告警通知; 健康检查.
+5. 服务容错. 超时; 熔断; 隔离; 限流; 降级. \(Service Mesh Platform\)
+6. 服务监控. 日志监控; 调用链监控; Metrics监控; 告警通知; 健康检查. \(Service Mesh Platform\)
 7. 服务部署平台. 发布机制\(蓝绿; 金丝雀; 灰度\); 容器调度平台; 发布系统; 镜像治理; 租户资源治理; 发布流水线.
 
 ## 微服务架构体系
@@ -26,7 +26,7 @@ http://microservices.io/patterns/microservices.html
 
 1. 接入层. 外部nginx, 内部nginx等.
 2. 业务服务层. 基础服务和聚合服务.
-3. 支撑服务. 服务的注册与发现, 集中配置; 容错; 授权认证; 日志聚合; 监控警告; 后台服务.
+3. 支撑服务. 服务的注册与发现, 集中配置; 容错; 授权认证; 日志聚合; 监控警告; 后台服务. \(Service Mesh\)
 4. 平台服务. 发布系统; 集群资源调度; 镜像治理; IAM.
 5. 基础设施层. compute, network, storage, NOC监控, 安全, IDC.
 
