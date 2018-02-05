@@ -8,7 +8,7 @@ Micro service is an architecture pattern for large scale and complex application
 
 [http://microservices.io/patterns/microservices.html](http://microservices.io/patterns/microservices.html)
 
-微服务架构是单一应用N层架构要复杂. 这种复杂性是为了解决更复杂的应用场景需求, 形成敏捷, 强大的服务交付与运行能力.
+微服务架构比单一应用N层架构要复杂. 这种复杂性是为了解决更复杂的应用场景需求, 形成敏捷, 强大的服务交付与运行能力.
 
 ## Microservice 基础架构内容
 
